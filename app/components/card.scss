@@ -20,6 +20,7 @@
       background-color: lighten($jet, 75%);
       border-radius: 25px;
       font-size: 0.75rem;
+      margin: 0.25rem;
     }
 
     p {
@@ -36,8 +37,23 @@
       justify-content: center;
       width: 150px;
 
-      svg {
-        margin-top: 2px;
+      &:nth-child(odd) {
+        background-color: $jet;
+        color: #FFFFFF;
+        svg {
+          fill: #FFFFFF;
+        }
+      }
+
+      &:hover {
+        background-color: #FF5A00;
+        box-shadow: 0 1px 4px 0 rgba(51, 51, 51, 0.5);
+        color: #FFFFFF;
+
+        svg {
+          fill: #FFFFFF;
+          transition: fill 0.15s ease-in-out;
+        }
       }
     }
   }

@@ -47,7 +47,7 @@
         },
         "tags": [
           "html",
-          "webcomponents",
+          "web component",
           "bootstrap"
         ]
       }
@@ -65,7 +65,24 @@
         "tags": [
           "html",
           "css",
-          "webcomponents"
+          "web component"
+        ]
+      }
+    },
+    {
+      "type": "projects",
+      "id": "the-hub-app",
+      "attributes": {
+        "description": "TODO",
+        "image": "https://ksthehub.s3-us-west-1.amazonaws.com/img/the-hub%400.1x.jpg",
+        "href": {
+          "git": "https://github.com/mneumann-dev/the-hub",
+          "site": "#"
+        },
+        "tags": [
+          "html",
+          "css",
+          "ember.js"
         ]
       }
     },
@@ -98,7 +115,7 @@
         "tags": [
           "html",
           "css",
-          "webcomponents"
+          "web component"
         ]
       }
     }

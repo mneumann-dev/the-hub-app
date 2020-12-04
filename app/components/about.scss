@@ -1,5 +1,6 @@
 @import '../styles/modules/breakpoints';
 @import '../styles/modules/mixins';
+@import '../styles/modules/variables';
 
 .about {
   background-color: rgba(0, 0, 0, 0.8);
@@ -19,6 +20,10 @@
     position: absolute;
     top: 0.5rem;
     right: 0;
+
+    &:hover svg {
+      fill: $patone-orange;
+    }
   }
 
   div {

@@ -11,7 +11,8 @@ export default class ProjectsFilterComponent extends Component {
       projects.forEach(project => {
         if (project.id.includes(query)) {
           projects = projects.filter(project => project.id.includes(query));
-        } else if (project.tags.includes(query)) {
+        }
+        if (project.tags.includes(query)) {
           projects = projects.filter(project => project.tags.includes(query));
         }
       })

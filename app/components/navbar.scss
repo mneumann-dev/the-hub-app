@@ -16,11 +16,20 @@
     }
 
     svg {
+      fill: #FFFFFF;
+      filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.5));
       height: auto;
+      transition: fill 0.15s ease-in-out;
       width: 18pt;
+
+      &:hover {
+        fill: $patone-orange;
+      }
     }
 
     .navbar__brand {
+      padding-left: 0;
+
       a {
         color: #FFFFFF;
         font-family: "Avenir Next DemiBold", "Helvetica Neue", Arial, sans-serif;
@@ -33,6 +42,7 @@
           font-size: 1.5rem;
           left: 2rem;
           padding-top: 0.15rem;
+          text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
 
           @include respond-to('medium') {
             display: inline-block;
@@ -45,7 +55,6 @@
 
       a {
         svg {
-          fill: #FFFFFF;
           margin: 0.25rem;
         }
       }
@@ -58,7 +67,23 @@
         padding: 0;
 
         svg {
-          fill: #FFFFFF;
+          margin: 0.25rem;
+        }
+      }
+
+      span {
+        cursor: pointer;
+        font-size: 0.75rem;
+        pointer-events: none;
+        overflow: hidden;
+        transition: width 1s ease-in-out;
+        top: 4px;
+        right: 0.25rem;
+
+        svg {
+          height: auto;
+          fill: #ffc107;
+          width: 10pt;
         }
       }
     }
@@ -70,10 +95,6 @@
         display: flex;
         margin: 0;
         padding: 0;
-      }
-
-      svg {
-        fill: #FFFFFF;
       }
     }
   }

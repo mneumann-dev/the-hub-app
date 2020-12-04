@@ -5,6 +5,10 @@
   justify-content: center;
 }
 
+.text-white {
+  color: #FFFFFF;
+}
+
 .text-decor-none {
   text-decoration: none;
 }
@@ -13,17 +17,21 @@
   text-align: center;
 }
 
+.uppercase {
+  text-transform: uppercase;
+}
+
 .img-fluid {
   height: auto;
   max-width: 100%;
 }
 
 .has-shadow {
-  box-shadow: 0 1px 4px 0 rgba(51, 51, 51, 0.5);
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.5);
 }
 
 .has-shadow-lg {
-  box-shadow: 0 8px 12px 0 rgba(51, 51, 51, 0.5);
+  box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.5);
 }
 
 .y-show {
@@ -34,6 +42,10 @@
 .x-show {
   -webkit-transform: translateX(0) !important;
   transform: translateX(0) !important;
+}
+
+.no-scroll {
+  overflow: hidden !important;
 }
 
 .bg {

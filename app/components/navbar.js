@@ -6,13 +6,14 @@ import { inject as service } from '@ember/service'
 export default class Navbar extends Component {
   @service toggle
   @service aboutToggle
+  @service feedToggle
   @tracked isScrolling = false
 
   @action toggleSearch () {
     this.toggle.toggle()
     this.toggle.show ? document.querySelector('input').focus() : document.querySelector('input').blur()
     if (this.toggle.show) this.isScrolling = false
-    if (!this.toggle.show) this.toggle.clear()
+    // if (!this.toggle.show) this.toggle.clear()
   }
 
   @action toggleAbout () {

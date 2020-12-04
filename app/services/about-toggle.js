@@ -7,5 +7,10 @@ export default class AboutToggleService extends Service {
 
   @action toggle () {
     this.show = !this.show
+    if (this.show) {
+      document.querySelector('body').classList.add('no-scroll')
+    } else {
+      document.querySelector('body').classList.remove('no-scroll')
+    }
   }
 }
