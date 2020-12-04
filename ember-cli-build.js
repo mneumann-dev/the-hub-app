@@ -13,6 +13,8 @@ module.exports = function(defaults) {
     }
   });
 
+  app.import('vendor/twitter-wjs.js')
+
   // Use `app.import` to add additional libraries to the generated
   // output files.
   //

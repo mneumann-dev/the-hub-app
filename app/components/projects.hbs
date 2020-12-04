@@ -1,16 +1,45 @@
 <section local-class="projects">
-  <div local-class="search" class="flex-center-center p-1 has-shadow-lg {{if this.toggle.show "y-show"}}"
+  <div local-class="search" class="d-flex align-items-center justify-content-around p-1 has-shadow-lg {{if this.toggle.show "y-show"}}"
     {{did-insert this.setTopPosition}} {{did-insert this.adjustTopPosition}}>
 
-    <Input @value={{this.toggle.query}} />
-    <button {{on "click" this.toggle.clear}}>
-      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"><path d="M12 2C6.47 2 2 6.47 2 12s4.47 10 10 10 10-4.47 10-10S17.53 2 12 2zm5 13.59L15.59 17 12 13.41 8.41 17 7 15.59 10.59 12 7 8.41 8.41 7 12 10.59 15.59 7 17 8.41 13.41 12 17 15.59z"/></svg>
+    <label for="api">API
+      <Input type="radio" id="api" name="filter" {{on "click" (fn this.toggle.toggleFilter 'api')}} />
+    </label>
+
+    <label for="bs">Bootstrap
+      <Input type="radio" id="bs" name="filter" {{on "click" (fn this.toggle.toggleFilter 'bootstrap')}} />
+    </label>
+
+    <label for="css">CSS
+      <Input type="radio" id="css" name="filter" {{on "click" (fn this.toggle.toggleFilter 'css')}} />
+    </label>
+    <label for="ember">Ember.JS
+      <Input type="radio" id="ember" name="filter" {{on "click" (fn this.toggle.toggleFilter 'ember.js')}} />
+    </label>
+    <label for="html">HTML
+      <Input type="radio" id="html" name="filter" {{on "click" (fn this.toggle.toggleFilter 'html')}} />
+    </label>
+    <label for="js">JS
+      <Input type="radio" id="js" name="filter" {{on "click" (fn this.toggle.toggleFilter 'javascript')}} />
+    </label>
+    <label for="wc">Web Components
+      <Input type="radio" id="wc" name="filter" {{on "click" (fn this.toggle.toggleFilter 'web component')}} />
+    </label>
+
+    <label>
+      <Input @value={{this.toggle.query}} placeholder="Search..." />
+    </label>
+
+    <button type="button" {{on "click" this.toggle.clear}} aria-label="Clear">
+      Clear Filters
     </button>
 
   </div>
 
+  <h1 class="text-center text-white uppercase">{{this.toggle.query}} PROJECTS</h1>
+
   <Projects::Filter @projects={{@model}} @query={{this.toggle.query}} as |project|>
-    <div class="d-flex justify-content-center w-100">
+    <div class="container d-flex justify-content-center w-100">
       {{#each project as |project|}}
         <Card @project={{project}} />
       {{/each}}
