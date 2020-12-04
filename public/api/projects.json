@@ -31,7 +31,7 @@
         "image": "https://ksthehub.s3-us-west-1.amazonaws.com/img/giamedical-landing-page%400.1x.jpg",
         "href": {
           "git": "https://github.com/mneumann-dev/giamedical-landing-page/blob/master/README.md",
-          "site": "https://giamedical.com"
+          "site": "https://mneumann-dev.github.io/giamedical-landing-page"
         },
         "tags": [
           "html",
