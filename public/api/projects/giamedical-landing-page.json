@@ -13,12 +13,7 @@
         "html",
         "javascript",
         "bootstrap"
-      ],
-      "info": {
-        "header": "TODO",
-        "aside": "TODO",
-        "footer": "TODO"
-      }
+      ]
     }
   }
 }

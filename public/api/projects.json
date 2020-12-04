@@ -15,12 +15,7 @@
           "javascript",
           "css",
           "api"
-        ],
-        "info": {
-          "header": "TODO",
-          "aside": "TODO",
-          "footer": "TODO"
-        }
+        ]
       }
     },
     {
@@ -37,12 +32,7 @@
           "html",
           "javascript",
           "bootstrap"
-        ],
-        "info": {
-          "header": "TODO",
-          "aside": "TODO",
-          "footer": "TODO"
-        }
+        ]
       }
     },
     {
@@ -59,12 +49,7 @@
           "html",
           "webcomponents",
           "bootstrap"
-        ],
-        "info": {
-          "header": "TODO",
-          "aside": "TODO",
-          "footer": "TODO"
-        }
+        ]
       }
     },
     {
@@ -81,12 +66,7 @@
           "html",
           "css",
           "webcomponents"
-        ],
-        "info": {
-          "header": "TODO",
-          "aside": "TODO",
-          "footer": "TODO"
-        }
+        ]
       }
     },
     {
@@ -102,12 +82,7 @@
         "tags": [
           "html",
           "css"
-        ],
-        "info": {
-          "header": "TODO",
-          "aside": "TODO",
-          "footer": "TODO"
-        }
+        ]
       }
     },
     {
@@ -124,12 +99,7 @@
           "html",
           "css",
           "webcomponents"
-        ],
-        "info": {
-          "header": "TODO",
-          "aside": "TODO",
-          "footer": "TODO"
-        }
+        ]
       }
     }
   ]

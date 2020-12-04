@@ -13,12 +13,7 @@
         "html",
         "css",
         "webcomponents"
-      ],
-      "info": {
-        "header": "TODO",
-        "aside": "TODO",
-        "footer": "TODO"
-      }
+      ]
     }
   }
 }

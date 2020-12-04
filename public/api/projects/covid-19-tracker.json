@@ -14,12 +14,7 @@
         "javascript",
         "css",
         "api"
-      ],
-      "info": {
-        "header": "TDO",
-        "aside": "TODO",
-        "footer": "TODO"
-      }
+      ]
     }
   }
 }
