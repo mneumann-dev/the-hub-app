@@ -1,0 +1,18 @@
+<section local-class="details" class="container">
+  <LinkTo class="text-decor-none" @route="index">Back</LinkTo>
+
+  <div class="d-flex align-items-center justify-content-around">
+    <h1>{{@project.id}}</h1>
+    <img class="img-fluid has-shadow" src="{{@project.image}}" alt="{{@project.id}}">
+  </div>
+
+  <article>
+    <p>{{@project.info.header}}</p>
+    <div class="d-flex justify-content-between">
+      <img class="img-fluid col-6 has-shadow" src="{{@project.info.image}}" alt="{{@project.id}}">
+      <p class="col-6 p-1">{{@project.info.aside}}</p>
+    </div>
+    <p>{{@project.info.footer}}</p>
+  </article>
+
+</section>

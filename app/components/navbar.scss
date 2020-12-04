@@ -1,0 +1,80 @@
+@import '../styles/modules/variables';
+@import '../styles/modules/breakpoints';
+@import '../styles/modules/mixins';
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+
+  div:first-child {
+    background-color: $jet;
+    transition: box-shadow 0.15s ease-in-out;
+
+    @include respond-to('medium') {
+      padding: 0.5rem 1rem;
+    }
+
+    svg {
+      height: auto;
+      width: 18pt;
+    }
+
+    .navbar__brand {
+      a {
+        color: #FFFFFF;
+        font-family: "Avenir Next DemiBold", "Helvetica Neue", Arial, sans-serif;
+
+        svg {
+          margin-right: 0.25rem;
+        }
+
+        span {
+          font-size: 1.5rem;
+          left: 2rem;
+          padding-top: 0.15rem;
+
+          @include respond-to('medium') {
+            display: inline-block;
+          }
+        }
+      }
+    }
+
+    .navbar__external-nav {
+
+      a {
+        svg {
+          fill: #FFFFFF;
+          margin: 0.25rem;
+        }
+      }
+
+      button {
+        @include btn-default;
+        align-items: center;
+        display: flex;
+        margin: 0;
+        padding: 0;
+
+        svg {
+          fill: #FFFFFF;
+        }
+      }
+    }
+
+    .navbar__about {
+      button {
+        @include btn-default;
+        align-items: center;
+        display: flex;
+        margin: 0;
+        padding: 0;
+      }
+
+      svg {
+        fill: #FFFFFF;
+      }
+    }
+  }
+}

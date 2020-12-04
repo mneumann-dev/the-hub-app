@@ -1,0 +1,18 @@
+.details {
+  > a {
+    @include btn-default;
+    align-items: center;
+    border: 1px solid $jet;
+    display: flex;
+    justify-content: center;
+    width: 150px;
+  }
+
+  img {
+    border-radius: $border-radius;
+  }
+
+  > div {
+
+  }
+}

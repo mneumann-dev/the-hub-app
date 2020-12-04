@@ -1,0 +1,24 @@
+{
+  "data": {
+    "type": "projects",
+    "id": "neu-to-dos",
+    "attributes": {
+      "description": "TODO",
+      "image": "https://ksthehub.s3-us-west-1.amazonaws.com/img/neu-to-dos%400.1x.jpg",
+      "href": {
+        "git": "https://github.com/mneumann-dev/neu-to-dos",
+        "site": "https://mneumann-dev.github.io/neu-to-dos/"
+      },
+      "tags": [
+        "html",
+        "webcomponents",
+        "bootstrap"
+      ],
+      "info": {
+        "header": "TODO",
+        "aside": "TODO",
+        "footer": "TODO"
+      }
+    }
+  }
+}
