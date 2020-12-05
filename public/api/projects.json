@@ -80,9 +80,8 @@
           "site": "#"
         },
         "tags": [
-          "html",
-          "css",
-          "ember.js"
+          "ember.js",
+          "sass"
         ]
       }
     },

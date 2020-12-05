@@ -7,6 +7,7 @@ export default class Navbar extends Component {
   @service toggle
   @service aboutToggle
   @service feedToggle
+  @service helpToggle
   @tracked isScrolling = false
 
   @action toggleSearch () {

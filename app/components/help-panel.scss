@@ -1,0 +1,54 @@
+.help-panel {
+  position: fixed;
+  right: 0.15rem;
+  width: 300px;
+
+  @include respond-to('medium') {
+    right: 0;
+  }
+
+  div:first-child {
+    background-color: #FFFFFF;
+    border-radius: $border-radius;
+    height: auto;
+    overflow: hidden;
+    transition: transform 1s ease-in-out;
+    transform: translateX(150%);
+
+
+    header {
+      background-color: $jet;
+
+      button {
+        @include btn-default;
+        margin: 0;
+        padding: 0;
+
+        svg {
+          fill: #FFFFFF;
+        }
+      }
+    }
+
+    > div {
+
+    }
+  }
+
+  > div:last-child {
+    top: 0.75rem;
+    transition: transform 0.5s ease-in-out;
+    transform: translateX(100px);
+    right: 0.15rem;
+
+    @include respond-to('medium') {
+      right: 0.65rem;
+    }
+
+    button {
+      @include btn-default;
+      margin: 0;
+      padding: 0;
+    }
+  }
+}

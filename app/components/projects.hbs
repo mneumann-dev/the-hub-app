@@ -2,29 +2,14 @@
   <div local-class="search" class="d-flex align-items-center justify-content-around p-1 has-shadow-lg {{if this.toggle.show "y-show"}}"
     {{did-insert this.setTopPosition}} {{did-insert this.adjustTopPosition}}>
 
-    <label for="api">API
-      <Input type="radio" id="api" name="filter" {{on "click" (fn this.toggle.toggleFilter 'api')}} />
-    </label>
-
-    <label for="bs">Bootstrap
-      <Input type="radio" id="bs" name="filter" {{on "click" (fn this.toggle.toggleFilter 'bootstrap')}} />
-    </label>
-
-    <label for="css">CSS
-      <Input type="radio" id="css" name="filter" {{on "click" (fn this.toggle.toggleFilter 'css')}} />
-    </label>
-    <label for="ember">Ember.JS
-      <Input type="radio" id="ember" name="filter" {{on "click" (fn this.toggle.toggleFilter 'ember.js')}} />
-    </label>
-    <label for="html">HTML
-      <Input type="radio" id="html" name="filter" {{on "click" (fn this.toggle.toggleFilter 'html')}} />
-    </label>
-    <label for="js">JS
-      <Input type="radio" id="js" name="filter" {{on "click" (fn this.toggle.toggleFilter 'javascript')}} />
-    </label>
-    <label for="wc">Web Components
-      <Input type="radio" id="wc" name="filter" {{on "click" (fn this.toggle.toggleFilter 'web component')}} />
-    </label>
+    <Projects::RadioBtn @for="API" @filter="api" />
+    <Projects::RadioBtn @for="Bootstrap" @filter="bootstrap" />
+    <Projects::RadioBtn @for="CSS" @filter="css" />
+    <Projects::RadioBtn @for="Ember.js" @filter="ember.js" />
+    <Projects::RadioBtn @for="HTML" @filter="html" />
+    <Projects::RadioBtn @for="JavaScript" @filter="javascript" />
+    <Projects::RadioBtn @for="SASS" @filter="sass" />
+    <Projects::RadioBtn @for="Web Components" @filter="web components" />
 
     <label>
       <Input @value={{this.toggle.query}} placeholder="Search..." />

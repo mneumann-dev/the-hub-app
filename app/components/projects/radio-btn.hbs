@@ -1,0 +1,4 @@
+<label local-class="radio-btn" for="{{@for}}">
+  <span>{{@for}}</span>
+  <Input type="radio" id="{{@for}}" name="filter" {{on "click" (fn this.toggle.toggleFilter @filter)}} />
+</label>
