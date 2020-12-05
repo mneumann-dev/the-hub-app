@@ -1,5 +1,6 @@
 <section local-class="projects">
-  <div local-class="search" class="d-flex align-items-center justify-content-around p-1 has-shadow-lg {{if this.toggle.show "y-show"}}"
+  <div local-class="search"
+       class="d-flex align-items-center justify-content-around p-1 has-shadow-lg {{if this.toggle.show "y-show"}}"
     {{did-insert this.setTopPosition}} {{did-insert this.adjustTopPosition}}>
 
     <Projects::RadioBtn @for="API" @filter="api" />
@@ -11,7 +12,7 @@
     <Projects::RadioBtn @for="SASS" @filter="sass" />
     <Projects::RadioBtn @for="Web Components" @filter="web components" />
 
-    <label>
+    <label class="{{if this.helpToggle.show "highlight-green"}}">
       <Input @value={{this.toggle.query}} placeholder="Search..." />
     </label>
 

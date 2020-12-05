@@ -1,0 +1,15 @@
+.legend {
+  list-style: none;
+
+  li {
+    align-items: center;
+    display: flex;
+
+    svg {
+      fill: $jet;
+      height: auto;
+      margin-right: 0.5rem;
+      width: 18pt;
+    }
+  }
+}

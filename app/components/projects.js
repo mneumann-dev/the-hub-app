@@ -4,6 +4,7 @@ import { action } from '@ember/object'
 
 export default class ProjectsComponent extends Component {
   @service toggle
+  @service helpToggle
 
   @action setTopPosition (e) {
     e.style.top = `${document.querySelector('#navbar').offsetHeight}px`
