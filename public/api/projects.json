@@ -5,16 +5,13 @@
       "id": "covid-19-tracker",
       "attributes": {
         "description": "This small project was quite fun to build. Fetching JSON data from an exposed API and parsing the JSON object. I played around with Javascript modules, imports, and the fuse.js library for filtering search parameters.",
-        "image": "https://ksthehub.s3-us-west-1.amazonaws.com/img/covid-19-tracker%400.1x.jpg",
+        "image": "/assets/imgs/covid-19-tracker@0.1x.jpg",
         "href": {
           "git": "https://github.com/mneumann-dev/covid-19-tracker",
           "site": "https://mneumann-dev.github.io/covid-19-tracker",
           "type": "Git Page"
         },
         "tags": [
-          "html",
-          "javascript",
-          "css",
           "api"
         ]
       }
@@ -23,16 +20,14 @@
       "type": "projects",
       "id": "giamedical-landing-page",
       "attributes": {
-        "description": "This web page has gone through a few revisions based on the companies needs. It was never intended to be a long-term solution, so it is no longer in a production environment. However, the project can be view on Git Pages.",
-        "image": "https://ksthehub.s3-us-west-1.amazonaws.com/img/giamedical-landing-page%400.1x.jpg",
+        "description": "This web page has gone through a few revisions based on the companies needs. It was never intended to be a long-term solution.",
+        "image": "/assets/imgs/giamedical-landing-page@0.1x.jpg",
         "href": {
           "git": "https://github.com/mneumann-dev/giamedical-landing-page",
-          "site": "https://mneumann-dev.github.io/giamedical-landing-page",
-          "type": "Git Page"
+          "site": "https://giamedical.com",
+          "type": "Website"
         },
         "tags": [
-          "html",
-          "javascript",
           "bootstrap"
         ]
       }
@@ -42,14 +37,13 @@
       "id": "neu-to-dos",
       "attributes": {
         "description": "In this project, I explore the use of standard web components to build a fully functional To-Do list with persistent data.",
-        "image": "https://ksthehub.s3-us-west-1.amazonaws.com/img/neu-to-dos%400.1x.jpg",
+        "image": "/assets/imgs/neu-to-dos@0.1x.jpg",
         "href": {
           "git": "https://github.com/mneumann-dev/neu-to-dos",
           "site": "https://mneumann-dev.github.io/neu-to-dos/",
           "type": "Git Page"
         },
         "tags": [
-          "html",
           "web component",
           "bootstrap"
         ]
@@ -60,15 +54,13 @@
       "id": "the-hub",
       "attributes": {
         "description": "The original version, no longer in active development. This website uses JavaScript to dynamically create project cards and search functionality.",
-        "image": "https://ksthehub.s3-us-west-1.amazonaws.com/img/the-hub%400.1x.jpg",
+        "image": "/assets/imgs/the-hub@0.1x.jpg",
         "href": {
           "git": "https://github.com/mneumann-dev/the-hub",
-          "site": "#",
+          "site": "https://mneumann-dev.github.io/the-hub",
           "type": "Git Page"
         },
         "tags": [
-          "html",
-          "css",
           "web component"
         ]
       }
@@ -78,11 +70,11 @@
       "id": "the-hub-app",
       "attributes": {
         "description": "The latest version of the Hub. This project is built with the Ember.JS framework and has undergone a redesign. The Hub serves as a central location to showcase projects.",
-        "image": "https://ksthehub.s3-us-west-1.amazonaws.com/img/the-hub%400.1x.jpg",
+        "image": "/assets/imgs/the-hub-app@0.1x.jpg",
         "href": {
           "git": "https://github.com/mneumann-dev/the-hub",
-          "site": "#",
-          "type": "Git Page"
+          "site": "https://mneumann.me",
+          "type": "Website"
         },
         "tags": [
           "ember.js",
@@ -95,16 +87,13 @@
       "id": "giamedical-uc-page",
       "attributes": {
         "description": "A simple under construction webpage with a smooth globe animation.",
-        "image": "https://ksthehub.s3-us-west-1.amazonaws.com/img/giamedical-uc-page%400.1x.jpg",
+        "image": "/assets/imgs/giamedical-uc-page@0.1x.jpg",
         "href": {
           "git": "https://github.com/mneumann-dev/giamedical-uc-page",
           "site": "https://mneumann-dev.github.io/giamedical-uc-page/",
           "type": "Git Page"
         },
-        "tags": [
-          "html",
-          "css"
-        ]
+        "tags": []
       }
     },
     {
@@ -112,15 +101,13 @@
       "id": "remco-demo",
       "attributes": {
         "description": "A website demo for REMCO. This is a single page demo design to be dark and tough. It features the use of web components.",
-        "image": "https://ksthehub.s3-us-west-1.amazonaws.com/img/remco-demo%400.1x.jpg",
+        "image": "/assets/imgs/remco-demo@0.1x.jpg",
         "href": {
           "git": "https://github.com/mneumann-dev/remco",
           "site": "https://mneumann-dev.github.io/remco/",
           "type": "Git Page"
         },
         "tags": [
-          "html",
-          "css",
           "web component"
         ]
       }
